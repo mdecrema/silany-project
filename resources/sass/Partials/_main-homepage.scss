@@ -1,0 +1,308 @@
+
+/* Jumbotron */
+.jumbotron {
+  height: 100vh;
+  background-image: url("/images/superhydrophobic.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron-opacity {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.jumbo-text {
+  width: 850px;
+  height: 100px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jumbo-text h2 {
+  color: #fff;
+  font-size: 55px;
+  font-family: 'Cabin', sans-serif;
+}
+
+/* Contenuto principale pagina */
+main {
+  background-color: #F5F8FA;
+}
+
+.page_wrapper {
+  min-height: 900px;
+}
+
+.page_wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-text {
+  height: 300px;
+  text-align: center;
+  padding: 7% 2%;
+  color: #333333;
+  line-height: 30px;
+  margin: 2% 0;
+}
+
+.box-text h2 {
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+
+/* Sections Info */
+.box {
+  height: 480px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3% 1%;
+  position: relative;
+  float: left;
+}
+
+.margin-box {
+  margin: 0 4%;
+}
+
+.icon {
+  font-size: 50px;
+  color: #02878A;
+}
+
+.box h3 {
+  font-size: 20px;
+  margin: 40px 0 30px 0;
+}
+
+.box p {
+  min-height: 150px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.box p::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box hr {
+  background-color: #333333;
+}
+
+.find_more_container {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+
+.box a {
+  width: 150px;
+  padding: 3% 7%;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgba(0,172,187,1) 0%, rgba(9,119,137,1) 69%, rgba(16,83,102,1) 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(170deg, rgba(0,172,187,1) 0%, rgba(9,119,137,1) 69%, rgba(16,83,102,1) 100%);
+}
+
+/* Smartphone */
+
+@media only screen and (max-width: 768px) {
+    /* Jumbotron */
+
+.jumbotron {
+  height: 100vh;
+}
+
+.jumbotron-opacity {
+  width: 100vw;
+  height: 100vh;
+}
+
+.jumbo-text {
+  width: 200px;
+  top: 65%;
+}
+
+.jumbo-text h2 {
+  font-size: 25px;
+}
+
+
+/*  Box text */
+.box-text {
+  height: 320px;
+}
+
+.box-text h2 {
+  font-size: 18px;
+  margin: 12% 0 7% 0;
+  text-align: left;
+}
+
+.box-text p {
+  font-size: 12px;
+  line-height: 25px;
+  text-align: left;
+}
+
+
+/* Sections */
+
+  .box {
+  height: 350px;
+  margin: 10% 0;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px lightgrey;
+  padding-top: 5%;
+  background-color: /*#dddbdb;*/ #e0e8eb;
+  }
+
+  .box h3 {
+    margin: 20px 0 20px 0;
+  }
+
+  .box p {
+    min-height: 100px;
+  }
+
+  .box hr {
+    display: none;
+  }
+
+  .find_more_container {
+    width: 100%;
+    height: 50px;
+    position: relative;
+  }
+
+  .box a {
+    background: #333333;
+    font-size: 14px;
+    width: 150px;
+    padding: 3% 6%;
+  }
+
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    /* Jumbotron */
+
+.jumbotron {
+  height: 100vh;
+}
+
+.jumbotron-opacity {
+  width: 100vw;
+  height: 100vh;
+}
+
+.jumbo-text {
+  width: 600px;
+  top: 70%;
+}
+
+.jumbo-text h2 {
+  font-size: 40px;
+}
+
+.box {
+  border: none;
+}
+
+.box h3 {
+  height: 50px;
+}
+
+.box p {
+  height: 200px;
+  text-align: justify;
+}
+
+.box hr {
+  display: none;
+}
+
+.margin-box {
+  margin: 0;
+  border-radius: 0;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Jumbotron */
+
+.jumbotron {
+  height: 100vh;
+}
+
+.jumbotron-opacity {
+  width: 100vw;
+  height: 100vh;
+}
+
+.jumbo-text {
+  width: 600px;
+  top: 70%;
+}
+
+.jumbo-text h2 {
+  font-size: 40px;
+}
+
+.box {
+  border: none;
+}
+
+.box h3 {
+  height: 50px;
+}
+
+.box p {
+  height: 200px;
+  text-align: justify;
+}
+
+.box hr {
+  display: none;
+}
+
+.margin-box {
+  margin: 0 4%;
+/*  border-radius: 0;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey; */
+}
+
+}
