@@ -265,6 +265,76 @@
   }
 }
 
+/* Hero */
+
+.hero {
+  height: 70vh;
+  background-image: url("/images/spray.jpg");
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-position: 0 -250px;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-opacity {
+  width: 100vw;
+  height: 70vh;
+  background-color: #000;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-text {
+  width: 70%;
+  height: 400px;
+  position: absolute;
+  left: 15%;
+  top: 200px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text h2 {
+  margin-bottom: 60px;
+  font-size: 40px;
+  font-family: "Cabin", sans-serif;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+
+/* Smartphone */
+
+@media only screen and (max-width: 768px) {
+  .hero-text {
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero-text h2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Cabin", sans-serif;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+
+/* Desktop */
+
 /* Jumbotron */
 
 .jumbotron {
@@ -820,5 +890,14 @@ body {
     font-size: 12px;
     text-align: center;
   }
+}
+
+.superhydro {
+  height: 500px;
+}
+
+.superhydro .left,
+.superhydro .right {
+  height: 100%;
 }
 

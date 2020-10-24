@@ -17,7 +17,7 @@
 
     @include('partials.header')
 
-    @include('partials.jumbotron')
+    @yield('hero')
 
     <main>
     @yield('main_content')

@@ -4,16 +4,18 @@
         <div class="container">
           <div class="row">
             <div class="logo col-lg-2">
-              <img id="logo" src="img/SmallLogo-372w.webp" alt="logo"/>
-            </div>
+            <a href="home">
+                <img id="logo" src="img/SmallLogo-372w.webp" alt="logo"/>
+            </a>
+            </div>  
             <div class="menu col-lg-10">
               <ul>
-                <li>Technology</li>
-                <li>Technology</li>
-                <li>Technology</li>
-                <li>Technology</li>
-                <li>Technology</li>
-                <li>Technology</li>
+                <li><a href="technologies">Technologies</a></li>
+                <li><a href="">Products & Applications</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Company</a></li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">News</a></li>
               </ul>
             </div>
           </div>
@@ -35,7 +37,9 @@
           <div class="row">
             <div class="menu col-xs-12 col-sm-12 col-md-12">
               <div class="logo-box">
-                <img id="logo" src="{{asset('images/SmallLogo-372w.webp')}}" alt="logo"/>
+                <a href="home">
+                    <img id="logo" src="{{asset('images/SmallLogo-372w.webp')}}" alt="logo"/>
+                </a>
               </div>
               <div class="hamburger-box">
                 <div class="hamb-logo transform">
@@ -60,14 +64,13 @@
       <div class="page-hidden-menu">
         <div class="hidden-menu fl_left">
           <ul>
-            <li class="home"><i class="fas fa-home home-icon"></i>Home</li>
-            <li>Technologies</li>
-            <li>Products &
-            Applications</li>
-            <li>Service</li>
-            <li>Company</li>
-            <li>Contacts</li>
-            <li>News</li>
+            <li class="home"><a href="home"><i class="fas fa-home home-icon"></i>Home</a></li>
+            <li><a href="technologies">Technologies</a></li>
+            <li><a href="">Products & Applications</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Company</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="">News</a></li>
           </ul>
         </div>
         <div class="close-hidden-menu fl_left">
